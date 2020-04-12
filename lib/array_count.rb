@@ -1,8 +1,8 @@
 def count_strings(array)
-  index = 0
+ count = 0
   array.count do |index|
     index.kind_of?(String) 
-    
+    count += 1
   end
   puts index
   
