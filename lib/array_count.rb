@@ -2,7 +2,9 @@ def count_strings(array)
   
   array.count do |index|
     index.kind_of?(String) 
-  return index
+    index += 1
+  end
+  puts index
   
 
   # Return the total number of strings in the provided array using the count enumerable
