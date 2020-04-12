@@ -4,7 +4,7 @@ def count_strings(array)
     count_strings = element.kind_of?(String)
   puts count_strings
 end
-  puts count_strings
+  
   
 
   # Return the total number of strings in the provided array using the count enumerable
