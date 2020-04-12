@@ -2,7 +2,7 @@ def count_strings(array)
  
   array.count do |element|
     count_strings = element.kind_of?(String)
-  puts count_strings
+  count_strings
 end
   
   
