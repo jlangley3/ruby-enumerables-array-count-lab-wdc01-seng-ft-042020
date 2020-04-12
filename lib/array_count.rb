@@ -11,7 +11,7 @@ end
 end
 
 def count_empty_strings(array)
-   array.count do |element|
+   array.count("")
     count_strings = array.("")
   count_strings
 end
