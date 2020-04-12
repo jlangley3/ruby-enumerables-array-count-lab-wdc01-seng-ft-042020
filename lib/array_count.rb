@@ -1,10 +1,11 @@
 def count_strings(array)
  count = 0
   array.count do |index|
-    index.kind_of?(String) 
+  if  index.kind_of?(String) 
     count += 1
   end
-  puts index
+end
+  puts count
   
 
   # Return the total number of strings in the provided array using the count enumerable
